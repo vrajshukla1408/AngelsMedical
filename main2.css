@@ -1,0 +1,44 @@
+.navbar ul li{
+    display: inline;
+}
+.navbar {
+    background-color: lightgreen;
+}
+.nav-link{
+    color: green;
+    margin:10px;
+    margin-right:50px;
+}.nav-link:hover{
+    color:black;
+    margin:10px;
+    margin-right:50px;
+}
+.dropdown-item{
+    color: green;
+    padding:10px;
+}
+.title{
+    background-color: #e9d282;
+    color:black;
+    text-align: center;
+}
+.data{
+    padding:10px;
+    border:0.5px dotted black;
+}
+.footer{
+    background-color:#034b29;
+}
+.footer_img{
+    padding:10px;
+    height:60px;
+}
+.footer h5{
+    color: white;
+    padding:25px;
+}
+.gallery ul li {
+    background-color: lightgreen;
+    margin-bottom:15px;
+    list-style: none;
+}

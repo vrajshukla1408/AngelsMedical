@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head_h1 , .head_h2{
+    position: relative;
+    width:80%;
+    margin-bottom: -15px;
+    background-color:#209b60;
+}
+.head_h1 ul li , a{
+    display: inline-flex;
+    color: white;
+    font-size:12px;
+}   
+.head_h1 ul li a:hover{
+    color:#62C997;
+    transition:1s;
+    text-decoration: none;
+}
+.head_bac{
+    background-image: url('./bac.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+.head_h2{
+    height:70px;
+}
+.marq1{
+    color: yellow;
+    font-weight: bold;
+}
+.marq2{
+    font-size: 13px;
+    color: white;
+}
+.head_h3{
+    position: relative;
+    padding:10px;
+    width:80%;
+    background-color: white;
+}
+.head_h3 .logo1{
+    height:100%;
+}
+.head_h3 .logo2{
+    height:100%;
+}
+@media only screen and (max-width: 600px) {
+    .head_h3 .logo1 {
+        height:70%;
+    }
+    .head_h3 .logo2 {
+        height:60%;
+    }
+  }
